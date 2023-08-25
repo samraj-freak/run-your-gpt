@@ -1,37 +1,70 @@
-# Frontend Chat with Custom AI Model
+# Getting Started with Create React App
 
-Welcome to the hiring task for gstudio.ai! In this task, your objective is to create a frontend application that allows users to chat with a custom AI model. You will be provided with the necessary resources to set up the environment and interact with the AI model.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Objective
+## Available Scripts
 
-Your task is to create a frontend application using React that enables users to have interactive conversations with a custom AI model. You will use the provided Google Colab notebook for running the AI model and the example Python file for interacting with it.
+In the project directory, you can run:
 
-## Provided Resources
+### `npm start`
 
-1. **Google Colab Notebook**: This [notebook](https://colab.research.google.com/drive/1BkL7zYVYtn0JPYKMPJ0tJmK-zMtINx0P?usp=sharing) contains the AI model and establishes a WebSocket connection along with a normal server for interaction.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-2. **Example Python File**: Both Files demonstrates how to interact with the AI model programmatically, you can use any one of the two streaming methods to complete the task. But be ready with a reason of why you selected it.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## Tasks
+### `npm test`
 
-1. **Create a React Frontend**: Develop a user-friendly chat interface using React where users can input their messages and receive responses from the AI model.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-2. **Integrate AI Model**: Use the provided example Python file to communicate with the AI model. Messages from the frontend should be sent to the AI model, and the responses should be displayed back to the user in the chat interface.
+### `npm run build`
 
-3. **Implement Message Limit and Login System**: Limit the number of messages a user can send to 25. Optionally, you can implement a simple login system to track users' messages.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-4. **Bonus Points - Incorporate Whisper STT and Silero TTS**: If you want to earn brownie points, consider integrating the Whisper Speech-to-Text (STT) system for voice input and Silero Text-to-Speech (TTS) for generating AI model responses as voice output.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## Submission
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Fork this repository and create your solution within it. Once you're done, please provide us with a link to your forked repository for evaluation.
+### `npm run eject`
 
-## Evaluation Criteria
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-- Functionality: Does the frontend allow users to chat with the AI model effectively?
-- Code Quality: Is the code well-structured, clean, and maintainable?
-- Additional Features: Did you successfully implement the message limit, login system, and any bonus tasks?
-- Creativity: Did you go beyond the basic requirements to make the chat interface more engaging and user-friendly?
-- Documentation: Is your `README.md` clear and comprehensive?
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Feel free to reach out if you have any questions. Good luck!
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
